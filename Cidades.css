@@ -4,7 +4,7 @@
   }
   
   body {
-    background-color: #555;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(./images/cidades.jpg);
     min-height: 100vh;
     display: flex;
     justify-content: center;
