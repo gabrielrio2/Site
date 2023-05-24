@@ -201,7 +201,7 @@ include_once './conexao.php';
                   <i class="fa-solid fa-star checked "></i>
                 </div>
                 <h6> <strong></strong></h6>
-                <a href="./Cidades.html">Visite</a>
+                <a href="./Cidades.php">Visite</a>
               </div>
             </div>
 
@@ -498,6 +498,23 @@ include_once './conexao.php';
         </div>
 
         <div class="row" style="margin-top: 50px;">
+        <?php
+    $query_textos = "SELECT id, texto FROM textos WHERE id = 8 ";
+    $result_textos= $conn ->prepare ($query_textos);
+    $result_textos->execute();
+    $quantidade_textos=$result_textos->rowCount();
+    //var_dump($quantidade_textos);
+
+    ?>
+        <?php
+    while ($row = $result_textos->fetch(PDO::FETCH_ASSOC)) {
+        $id = $row['id'];
+        $texto = $row['texto'];
+    ?>
+       
+    <?php
+    }
+    ?>
 
           <div class="col-md-6 py-3 py-md-0">
             <div class="card">
@@ -507,7 +524,7 @@ include_once './conexao.php';
 
           <div class="col-md-6 py-3 py-md-0">
             <h2>Como funcionamos</h2>
-            <p>Como um serviço voltado a ajudar os turistas a se locomoverem e conhecerem os valores de transporte em diferentes cidades e países, é importante oferecer as seguintes informações:Pesquise e forneça detalhes sobre os principais meios de transporte disponíveis em cada destino, como metrô, ônibus, táxis e serviços de compartilhamento de carros.Forneça informações atualizadas sobre tarifas e valores de transporte público, incluindo passagens individuais, passes diários ou semanais, e qualquer desconto disponível para turistas. </p>
+            <p><?php echo $texto  ?></p>
             <button id="about-btn">Saiba mais ...</button>
           </div>
 
