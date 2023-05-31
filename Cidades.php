@@ -1,4 +1,4 @@
-<?php
+ <?php
 include_once './conexao.php';
 ?>
 <!DOCTYPE html>
@@ -26,7 +26,7 @@ include_once './conexao.php';
           <h3 class="card-local">Rio de Janeiro</h3>
           <h2 class="card-titulo">Cidade maravilhosa</h2>
           <p class="card-texto">
-            Teste
+          Conhecida por sua beleza natural deslumbrante, incluindo praias famosas como Copacabana e Ipanema, além do icônico Cristo Redentor.
           </p>
         </div>
         <!-- card-body -->
@@ -52,14 +52,14 @@ include_once './conexao.php';
           <h3 class="card-local">São Paulo</h3>
           <h2 class="card-titulo">Cidade de pedra</h2>
           <p class="card-texto">
-           Teste
+          É um importante centro financeiro e cultural. Conhecida por sua agitação e diversidade, São Paulo oferece uma vida noturna animada, restaurantes de renome, teatros, museus e uma cena artística vibrante.
           </p>
         </div>
         <!-- card-body -->
 
         <!-- card-footer -->
         <div class="card-footer">
-          <a href="#">Ver Mais</a>
+          <a href="./saoPaulo.php">Ver Mais</a>
         </div>
         <!-- card-footer -->
       </div>
@@ -76,9 +76,9 @@ include_once './conexao.php';
         <!-- card-body -->
         <div class="card-body">
           <h3 class="card-local">Minas Gerais</h3>
-          <h2 class="card-titulo">Cidade do queijo</h2>
+          <h2 class="card-titulo">EM CONSTRUÇÃO</h2>
           <p class="card-texto">
-           Teste
+           <trong> EM CONSTRUÇAO</strong>
           </p>
         </div>
         <!-- card-body -->

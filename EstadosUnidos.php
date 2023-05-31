@@ -1,3 +1,6 @@
+ <?php
+include_once './conexao.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,23 +17,23 @@
       <div class="card card-1">
         <!-- card-header -->
         <div class="card-header">
-          <img src="./images/Rio.jpg" class="card-img" />
+          <img src="./images/Florida.jpg" class="card-img" />
         </div>
         <!-- card-header -->
 
         <!-- card-body -->
         <div class="card-body">
-          <h3 class="card-local">Rio de Janeiro</h3>
-          <h2 class="card-titulo">Cidade maravilhosa</h2>
+          <h3 class="card-local">Florida</h3>
+          <h2 class="card-titulo">The Sunshine State</h2>
           <p class="card-texto">
-            Teste
+          Conhecida por seu clima subtropical, praias deslumbrantes e parques temáticos famosos, como o Walt Disney World e o Universal Orlando Resort.
           </p>
         </div>
         <!-- card-body -->
 
         <!-- card-footer -->
         <div class="card-footer">
-          <a href="./rio.html">Ver Mais</a>
+          <a href="./FLO.php">Ver Mais</a>
         </div>
         <!-- card-footer -->
       </div>
@@ -40,23 +43,23 @@
       <div class="card card-2">
         <!-- card-header -->
         <div class="card-header">
-          <img src="./images/SaoPaulo.jpg" class="card-img" />
+          <img src="./images/New_york.jpg" class="card-img" />
         </div>
         <!-- card-header -->
 
         <!-- card-body -->
         <div class="card-body">
-          <h3 class="card-local">São Paulo</h3>
-          <h2 class="card-titulo">Cidade de pedra</h2>
+          <h3 class="card-local">Nova York</h3>
+          <h2 class="card-titulo">Big Apple</h2>
           <p class="card-texto">
-           Teste
+          é um centro global de negócios, cultura e entretenimento. A cidade abriga marcos famosos, como a Estátua da Liberdade, o Central Park e a Times Square. É também lar de importantes instituições culturais, como o Museu Metropolitano de Arte e a Broadway
           </p>
         </div>
         <!-- card-body -->
 
         <!-- card-footer -->
         <div class="card-footer">
-          <a href="#">Ver Mais</a>
+          <a href="./NY.php">Ver Mais</a>
         </div>
         <!-- card-footer -->
       </div>
@@ -66,16 +69,16 @@
       <div class="card card-3">
         <!-- card-header -->
         <div class="card-header">
-          <img src="./images/minas.jpg" class="card-img" />
+          <img src="./images/CasaBranca.jpg" class="card-img" />
         </div>
         <!-- card-header -->
 
         <!-- card-body -->
         <div class="card-body">
-          <h3 class="card-local">Minas Gerais</h3>
-          <h2 class="card-titulo">Cidade do queijo</h2>
+          <h3 class="card-local">Washington DC</h3>
+          <h2 class="card-titulo">Capital</h2>
           <p class="card-texto">
-           Teste
+          <strong> EM CONSTRUÇÃO </strong>
           </p>
         </div>
         <!-- card-body -->

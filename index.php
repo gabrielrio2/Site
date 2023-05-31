@@ -152,7 +152,7 @@ include_once './conexao.php';
             <div class="card">
               <img src="./images/france.png" alt="">
               <div class="card-body">
-                <h3>France</h3>
+                <h3>França</h3>
                 <p><?php echo $texto  ?></p>
                 <div class="star">
                   <i class="fa-solid fa-star checked"></i>
@@ -325,7 +325,7 @@ include_once './conexao.php';
                   <i class="fa-solid fa-star "></i>
                 </div>
                 <h6> <strong></strong></h6>
-                <a href="#book">Visite</a>
+                <a href="./EstadosUnidos.php">Visite</a>
               </div>
             </div>
 
