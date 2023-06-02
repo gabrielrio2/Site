@@ -14,7 +14,22 @@ include_once './conexao.php';
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 5.8.13, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Link -->
+
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
     
     
     
@@ -31,6 +46,36 @@ include_once './conexao.php';
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
   <body class="u-body u-xl-mode" data-lang="pt">
+  <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navb/ar-brand" href="index.php" id="logo"><span>T</span>ravelers</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.php">Inicio</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="index.php#packages">Destinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php#services">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php#gallary">Galeria </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php#about">Sobre</a>
+              </li>
+             
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
     <section class="skrollable skrollable-between u-align-center u-clearfix u-container-align-center-md u-container-align-center-sm u-container-align-center-xs u-image u-shading u-section-1" src="" id="sec-804d" data-image-width="1200" data-image-height="740">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-align-center-md u-align-center-sm u-align-center-xs u-text u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="250">SÃO PAULO</h1>

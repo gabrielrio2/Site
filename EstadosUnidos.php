@@ -9,6 +9,7 @@ include_once './conexao.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cidades</title>
     <link rel="stylesheet" href="Cidades.css" />
+    
   </head>
   <body>
     

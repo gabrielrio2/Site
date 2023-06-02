@@ -36,14 +36,14 @@ include_once './conexao.php';
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container">
-          <a class="navb/ar-brand" href="index.html" id="logo"><span>V</span>iaje</a>
+          <a class="navb/ar-brand" href="index.php" id="logo"><span>T</span>ravelers</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span><i class="fa-solid fa-bars"></i></span>
           </button>
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Inicio</a>
+                <a class="nav-link active" href="index.php">Inicio</a>
               </li>
               
               <li class="nav-item">
